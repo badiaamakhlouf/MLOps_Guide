@@ -24,7 +24,7 @@ Below is the outline for this article:
     - Challenges in deploying and maintaining machine learning models.
     - Importance of collaboration between data scientists, engineers, and operations teams.
     
-**[2. Machine Learning Pipeline Overview and Stages] (pages/machine_learning_pipeline.md)**
+**[2. Machine Learning Pipeline Overview and Stages](pages/machine_learning_pipeline.md)**
   - Definie a Machine learning pipeline and highlight its key components.
   - Provide detailed description for the various stage of ML pipeline
     
