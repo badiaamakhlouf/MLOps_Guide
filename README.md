@@ -23,8 +23,8 @@ Below is the outline for this article:
   - Why MLOps Matters?
     - Challenges in deploying and maintaining machine learning models.
     - Importance of collaboration between data scientists, engineers, and operations teams.
-      
-**[2. Machine Learning Pipeline Overview] and Stages (pages/machine_learning_pipeline.md)**
+    
+**[2. Machine Learning Pipeline Overview and Stages] (pages/machine_learning_pipeline.md)**
   - Definie a Machine learning pipeline and highlight its key components.
   - Provide detailed description for the various stage of ML pipeline
     
@@ -75,7 +75,7 @@ Below is the outline for this article:
   - Integration with DevOps: The growing integration of DevOps and MLOps for more efficient workflows.
   - Ethical Considerations: Addressing biases in ML models and ensuring ethical AI practices.
 
-**[10. Conclusion]()**
+**10. Conclusion**
   - Summary of Key Points
   - Recap of MLOps and its importance in the ML project lifecycle.
   - Final Thoughts
