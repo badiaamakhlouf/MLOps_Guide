@@ -23,22 +23,22 @@ Below is the outline for this article:
   - Why MLOps Matters?
     - Challenges in deploying and maintaining machine learning models.
     - Importance of collaboration between data scientists, engineers, and operations teams.
-  **[2. Machine Learning Pipeline Overview] and Stages (pages/machine_learning_pipeline.md)**
+**[2. Machine Learning Pipeline Overview] and Stages (pages/machine_learning_pipeline.md)**
   - Definie a Machine learning pipeline and highlight its key components.
   - Provide detailed description for the various stage of ML pipeline  
-  **[3. Key Concepts in MLOps](pages/key_concepts_mlops.md)**
+**[3. Key Concepts in MLOps](pages/key_concepts_mlops.md)**
   - Explain the versioning concept and the automation using CI/CD
   - Describe Model Governanace and collaboration
-  **[4. Testing in MLOps]()**
+**[4. Testing in MLOps]()**
   - Define the three types of testing a ml system: unit tests, integration tests and end-to-end tests
   - Provide the set of tools used for testing purposes
-  **[5. Tools and Technologies for MLOps](pages/tools_and_technologies.md)**
+**[5. Tools and Technologies for MLOps](pages/tools_and_technologies.md)**
   - Cloud Platforms for MLOps : Amazon SageMaker, Google AI Platform, Azure ML
   - MLOps Frameworks: TensorFlow Extended (TFX), Kubeflow, MLflow, Metaflow.
   - Data and Model Versioning: DVC, Git LFS, MLflow.
   - Containerization and Orchestration: Docker, Kubernetes, Helm charts for orchestration.
   - Model Serving Tools: TensorFlow Serving, TorchServe, FastAPI for lightweight serving.
-  **[6. Challenges in MLOps]()**
+**[6. Challenges in MLOps]()**
   - Model Deployment at Scale: 
     - Challenges in scaling models for production environments.
     - Managing model performance and latency.
