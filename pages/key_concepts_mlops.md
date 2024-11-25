@@ -1,0 +1,13 @@
+# Key Concepts in MLOps
+  - Versioning: 
+    - Importance of versioning data, code, and models.
+    - Tools for version control: DVC, Git, MLflow.
+  - Automation and CI/CD: 
+    - The role of CI/CD in MLOps for continuous integration and continuous delivery of ML models.
+    - Automation of pipelines using tools like Jenkins, GitLab, or GitHub Actions.
+  - Model Governance:
+    - Compliance, audit trails, and traceability.
+    - Model explainability and transparency.
+  - Collaboration: 
+    - Collaboration between data scientists, developers, and operations.
+    - Tools for collaboration: Jupyter notebooks, version control systems, and platforms like MLflow or Kubeflow.
