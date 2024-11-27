@@ -25,63 +25,46 @@ In this document, I will provide a detailed report on the importance of each tes
       - Test transformations like scaling, normalization, or one-hot encoding.
       - Ensure that the preprocessing functions handle edge cases (e.g., empty datasets or unexpected data types)
         
-  - **Feature extraction** : ensuring the correct computation of features from raw data.
-  - **Model training** : verifying that models are trained with the expected behavior and outputs.
+  - **Feature extraction** :
+      - Ensuring the correct computation of features from raw data.
+      - Validate the output of feature extraction functions.
+      - Test custom feature transformations for accuracy and consistency.
+      - Ensure that the engineered features align with the model’s input requirements.
+        
+  - **Model training** :
+      - Verify that models are trained with the expected behavior and outputs.
+      - Check that training functions accept the expected inputs (e.g., datasets, hyperparameters).
+      - Verify that the model outputs have the correct shape and format.
+      - Test specific aspects of the training process, such as early stopping or regularization.
+        
   - **Utility Functions**
+      - Test helper functions like data loaders, metric calculators, or plotting utilities.
+      - Ensure robustness against edge cases and invalid inputs.
+
+## 1.4- Best Practices for Writing Unit Tests in MLOps
+- Here are the common key steps to follow to ensure best practices when writing unit tests in MLOps:
+  - Use Mock Data
+  - Write Testable Code
+  - Follow Naming Conventions
+  - Automate Testing
+  - Test Edge Cases
+  
+- **Use Mock Data:** create small and representative datasets to test functions efficiently instead of using large real-world datasets.
+- **Write Testable Code:**
+  - Break down complex operations into smaller, reusable functions that are easier to test.
+  - Avoid dependencies on external systems (e.g., databases, APIs) in unit-tested functions.
+- **Follow Naming Conventions:**
+  - Use descriptive names for test cases to make them easily understandable.
+  - Example: `test_handle_missing_values` instead of `test_function1`.
+- **Automate Testing:** integrate unit tests into the CI/CD pipeline to ensure all code changes are tested automatically.
+- **Test Edge Cases:** account for scenarios like empty inputs, incorrect data types, or unexpected input sizes.
 
 
-
-
-
-
-    - Tools for unit testing: PyTest, unittest.
-
-
-
-What to Test in MLOps
-Data Preprocessing
-
-Verify the correctness of data cleaning (e.g., handling missing values, duplicates, and outliers).
-Test transformations like scaling, normalization, or one-hot encoding.
-Ensure that the preprocessing functions handle edge cases (e.g., empty datasets or unexpected data types).
-Feature Engineering
-
-Validate the output of feature extraction functions.
-Test custom feature transformations for accuracy and consistency.
-Ensure that the engineered features align with the model’s input requirements.
-Model Training
-
-Check that training functions accept the expected inputs (e.g., datasets, hyperparameters).
-Verify that the model outputs have the correct shape and format.
-Test specific aspects of the training process, such as early stopping or regularization.
-Utility Functions
-
-Test helper functions like data loaders, metric calculators, or plotting utilities.
-Ensure robustness against edge cases and invalid inputs.
-Best Practices for Writing Unit Tests in MLOps
-Use Mock Data
-
-Create small, representative datasets to test functions efficiently without relying on large real-world datasets.
-Write Testable Code
-
-Break down complex operations into smaller, reusable functions that are easier to test.
-Avoid dependencies on external systems (e.g., databases, APIs) in unit-tested functions.
-Follow Naming Conventions
-
-Use descriptive names for test cases to make them easily understandable.
-Example: test_handle_missing_values instead of test_function1.
-Automate Testing
-
-Integrate unit tests into the CI/CD pipeline to ensure all code changes are tested automatically.
-Test Edge Cases
-
-Account for scenarios like empty inputs, incorrect data types, or unexpected input sizes.
-Frameworks for Unit Testing in MLOps
-PyTest: A Python testing framework with simple syntax and advanced features like fixtures and parameterized testing.
-unittest: Python’s built-in testing framework, suitable for basic testing needs.
-Doctest: Validates code examples in documentation by running them as tests.
-Hypothesis: A property-based testing library that generates test cases automatically based on specified properties. 
-
+## 1.5- Frameworks for Unit Testing in MLOps
+-**PyTest:** a Python testing framework with simple syntax and advanced features like fixtures and parameterized testing.
+- **unittest:** a Python’s built-in testing framework, suitable for basic testing needs.
+- **Doctest:** validates code examples in documentation by running them as tests.
+- **Hypothesis:** a property-based testing library that generates test cases automatically based on specified properties. 
 
 
 ## 2. Integration Tests in MLOps
@@ -92,7 +75,7 @@ Hypothesis: A property-based testing library that generates test cases automatic
  - Verifying the behavior of the full pipeline in an integrated environment.
 - Tools for integration testing: Testcontainers, Mocking services.
 
-# 2. End-to-End Tests
+# 3. End-to-End Tests
 
 - Verifying the entire ML pipeline from data ingestion to model deployment.
 - Importance of testing the entire system to ensure reliability under real-world conditions.
