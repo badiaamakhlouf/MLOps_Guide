@@ -10,21 +10,34 @@ In this document, I will provide a detailed report on the importance of each tes
 ### 1.1- Definition of Unit Tests
 - Unit tests are essential for ensuring the quality and reliability of machine learning pipelines.
 - They verify the correctness of individual ML components or functions in isolation, ensuring each part functions as expected.
+    
+### 1.2- Advantages of using Unit Tests
+- Several advantages are reached when using the unit tests in our ML pipeline which are:
+- Early Detection of Bugs: catch errors in specific parts of the pipeline before they propagate to other stages.
+- Improved Code Quality: testing individual components enforces clean and maintainable code.
+- Faster Debugging: unit tests isolate functions to facilitate the identification and fix the source of issues.
+- Facilitates Refactoring: developers can refactor or modify code with confidence, knowing the functionality remains intact.
+
+### 1.3- What to Test in MLOps
 - Examples of where unit tests are applied in an ML pipeline include:
- - Data preprocessing functions: Validating data cleaning, normalization, and transformation processes.
- - Feature extraction methods: Ensuring the correct computation of features from raw data.
- - Model training functions: Verifying that models are trained with the expected behavior and outputs.
+  - **Data preprocessing** :
+      - Check the correctness of data cleaning such as handling missing values, duplicates, and outliers
+      - Test transformations like scaling, normalization, or one-hot encoding.
+      - Ensure that the preprocessing functions handle edge cases (e.g., empty datasets or unexpected data types)
+        
+  - **Feature extraction** : ensuring the correct computation of features from raw data.
+  - **Model training** : verifying that models are trained with the expected behavior and outputs.
+  - **Utility Functions**
 
 
-  
+
+
+
+
     - Tools for unit testing: PyTest, unittest.
 
 
-Why Unit Tests Matter in MLOps
-Early Detection of Bugs: Unit tests help catch errors in specific parts of the pipeline before they propagate to other stages.
-Improved Code Quality: Testing individual components enforces clean and maintainable code.
-Faster Debugging: Since unit tests isolate functions, it's easier to identify and fix the source of issues.
-Facilitates Refactoring: With unit tests in place, developers can refactor or modify code with confidence, knowing the functionality remains intact.
+
 What to Test in MLOps
 Data Preprocessing
 
