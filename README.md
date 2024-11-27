@@ -9,11 +9,9 @@ Below is the outline for this article:
 3. Key Concepts in MLOps
 4. Testing in MLOps
 5. Tools and Technologies for MLOps
-6. Challenges in MLOps
-7. Best Practices in MLOps
-8. Case Studies and Real-world Applications
-9. Future of MLOps
-10. Conclusion
+6. Best Practices and challenges in MLOps
+7. Future of MLOps
+8. Conclusion
  
 **1. Introduction**
   - What is MLOps?
