@@ -1,6 +1,7 @@
 # Machine Learning Operations : MLOPS 
 
 In this repository, I will provide a comprehensive report on MLOps, outlining the key components of the MLOps roadmap and guiding you on the essential hard skills needed to become an expert in this domain. 
+
 For code scripts related to machine learning, I will include links to my specialized Git repositories, each dedicated to a specific area of machine learning, as I maintain separate repositories for different ML fields. 
 Below is the outline for this article:
 ## Outline
