@@ -72,7 +72,7 @@ In this document, I will provide a detailed report on the importance of each tes
 - **Complex Pipelines:** the interconnected nature of ML pipelines means functions often depend on outputs from previous stages, making isolation tricky.
 
 
-## 2. Integration Tests in MLOps
+# 2. Integration Tests in MLOps
  
 - Definition of integration tests and their role in validating how different components of the pipeline interact.
 - Examples of integration tests:
