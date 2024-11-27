@@ -61,7 +61,7 @@ In this document, I will provide a detailed report on the importance of each tes
 
 
 ## 1.5- Frameworks for Unit Testing in MLOps
--**PyTest:** a Python testing framework with simple syntax and advanced features like fixtures and parameterized testing.
+- **PyTest:** a Python testing framework with simple syntax and advanced features like fixtures and parameterized testing.
 - **unittest:** a Python’s built-in testing framework, suitable for basic testing needs.
 - **Doctest:** validates code examples in documentation by running them as tests.
 - **Hypothesis:** a property-based testing library that generates test cases automatically based on specified properties. 
