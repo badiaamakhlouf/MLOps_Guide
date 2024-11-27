@@ -3,6 +3,7 @@ To strengthen the testing framework of our ML code, three types of testing can b
  - Unit Tests
  - Integration Tests
  - End-to-End Tests
+
 In this document, I will provide a detailed report on the importance of each testing type, highlight the differences between them, and include practical script examples to illustrate their application.
 
 
