@@ -66,6 +66,11 @@ In this document, I will provide a detailed report on the importance of each tes
 - **Doctest:** validates code examples in documentation by running them as tests.
 - **Hypothesis:** a property-based testing library that generates test cases automatically based on specified properties. 
 
+## 1.6- Challenges of Unit Testing in MLOps
+- **Dynamic Data:** machine learning pipelines often rely on real-world data that changes over time, making it harder to create static test cases.
+- **Non-deterministic Models:** some ML algorithms (e.g., neural networks) may produce slightly different results for the same inputs due to randomness, complicating testing.
+- **Complex Pipelines:** the interconnected nature of ML pipelines means functions often depend on outputs from previous stages, making isolation tricky.
+
 
 ## 2. Integration Tests in MLOps
  
