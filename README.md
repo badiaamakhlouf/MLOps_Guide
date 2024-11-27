@@ -32,7 +32,7 @@ Below is the outline for this article:
   - Explain the versioning concept and the automation using CI/CD
   - Describe Model Governanace and collaboration
     
-**[4. Testing in MLOps]()**
+**[4. Testing in MLOps](pages/unit_vs_integration_tests.md)**
   - Define the three types of testing a ml system: unit tests, integration tests and end-to-end tests
   - Provide the set of tools used for testing purposes
     
@@ -43,39 +43,33 @@ Below is the outline for this article:
   - Containerization and Orchestration: Docker, Kubernetes, Helm charts for orchestration.
   - Model Serving Tools: TensorFlow Serving, TorchServe, FastAPI for lightweight serving.
 
-**[6. Challenges in MLOps]()**
-  - Model Deployment at Scale: 
-    - Challenges in scaling models for production environments.
-    - Managing model performance and latency.
-  - Data Drift and Concept Drift: Understanding and mitigating data and concept drift.
-  - Reproducibility: Ensuring the reproducibility of ML models and experiments.
-  - Collaboration Barriers: Cross-team collaboration challenges (data scientists, DevOps, engineers).
+**[6. Best Practices and challenges in MLOps](pages/best_practices_and_challenges.md)**
+  - **Best Practices:**
+    - Building Reproducible Pipelines:
+      - Importance of reproducibility in ML projects.
+      - Using containers and version control systems.
+    - Automating the ML Workflow: 
+      - CI/CD pipelines for model updates and retraining.
+      - Using tools for automated testing of models.
+    - Monitoring and Feedback Loops:
+      - Continuous model monitoring and performance evaluation.
+      - Gathering user feedback for retraining models.
+  - **Challenges:**
+    - Model Deployment at Scale: 
+      - Challenges in scaling models for production environments.
+      - Managing model performance and latency.
+    - Data Drift and Concept Drift: Understanding and mitigating data and concept drift.
+    - Reproducibility: Ensuring the reproducibility of ML models and experiments.
+    - Collaboration Barriers: Cross-team collaboration challenges (data scientists, DevOps, engineers).
 
-**[7. Best Practices in MLOps]()**
-  - Building Reproducible Pipelines:
-    - Importance of reproducibility in ML projects.
-    - Using containers and version control systems.
-  - Automating the ML Workflow: 
-    - CI/CD pipelines for model updates and retraining.
-    - Using tools for automated testing of models.
-  - Monitoring and Feedback Loops:
-    - Continuous model monitoring and performance evaluation.
-    - Gathering user feedback for retraining models.
-
-**[8. Case Studies and Real-world Applications]()**
-  - Industry Examples:
-    - How companies like Google, Netflix, or Uber use MLOps.
-    - Examples of how different industries deploy ML models (finance, healthcare, e-commerce).
-  - Challenges Faced in Real-world MLOps: Lessons learned from real-world MLOps implementations.
-
-**[9. Future of MLOps]()**
+**[7. Future of MLOps](pages/future_of_mlops.md)**
   - Emerging Trends : 
     - The role of AI in automating MLOps.
     - Future developments in model management, explainability, and automation.
   - Integration with DevOps: The growing integration of DevOps and MLOps for more efficient workflows.
   - Ethical Considerations: Addressing biases in ML models and ensuring ethical AI practices.
 
-**10. Conclusion**
+**8. Conclusion**
   - Summary of Key Points
   - Recap of MLOps and its importance in the ML project lifecycle.
   - Final Thoughts
