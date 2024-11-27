@@ -31,7 +31,7 @@ Below is the outline for this article:
   - Explain the versioning concept and the automation using CI/CD
   - Describe Model Governanace and collaboration
     
-**[4. Testing in MLOps](pages/pages/testing_mlops.md)**
+**[4. Testing in MLOps](pages/testing_mlops.md)**
   - Define the three types of testing a ml system: unit tests, integration tests and end-to-end tests
   - Provide the set of tools used for testing purposes
     
