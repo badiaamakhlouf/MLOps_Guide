@@ -129,10 +129,12 @@ In this document, I will provide a detailed report on the importance of each tes
    - **Great expectations**: for testing data quality and schema compliance.
    - **ML-Specific Libraries**: TensorFlow Extended (TFX) or MLflow: for orchestrating and validating pipelines.
 - **CI/CD Tools:** Jenkins, GitHub Actions, Bitbucket Pipelines, or GitLab CI/CD for automating integration tests.
-Benefits of Integration Tests in MLOps
-Increased Confidence: Validate the entire workflow or critical segments in realistic scenarios.
-Faster Debugging: Quickly pinpoint issues at the interfaces between components.
-Continuous Validation: Ensure the pipeline remains robust as it evolves.
+
+### 2.7- Benefits of Integration Tests in MLOps
+- **Increased confidence:** validate the entire workflow or critical segments in realistic scenarios.
+- **Faster debugging:** quickly pinpoint issues at the interfaces between components.
+- **Continuous validation:** ensure the pipeline remains robust as it evolves.
+
 Integration testing ensures that your ML pipeline functions cohesively, making it a critical component of robust MLOps practices.
 
 # 3. End-to-End Tests
